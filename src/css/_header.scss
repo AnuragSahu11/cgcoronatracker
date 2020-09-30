@@ -1,0 +1,40 @@
+.header{
+    padding: 7rem 20rem 0rem 20rem;
+    background-color: #f6f6f6;
+
+    &__heading{
+        text-align: center;
+        display: block;
+        
+        &-h1{
+            font-size: 8rem;
+            font-weight: Black 900;
+            color: #838383;
+            text-shadow: 0 2rem 3rem rgba($color: #000000, $alpha: .15);
+
+            &:not(:last-child){
+                text-transform: uppercase;
+                letter-spacing: 2rem;
+                
+            }
+            &:last-child{
+                letter-spacing: .8rem;
+                
+            }
+        }
+
+    }
+
+    &__dropdown{
+        width: 100%;
+        margin-left: -5%;
+        padding-top: 4rem;
+        
+        font-size: 3rem;
+    }
+}
+
+.hr{
+    width: 100%;
+    color: #ffffff;
+}

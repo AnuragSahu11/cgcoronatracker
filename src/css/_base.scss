@@ -1,0 +1,18 @@
+html{
+    font-size: 62.5%;
+}
+
+*,
+*::after,
+*::before{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: inherit;
+}
+
+body{
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
