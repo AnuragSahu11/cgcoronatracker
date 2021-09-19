@@ -14,7 +14,7 @@ function App(){
   const [ddData, setDdData] = useState([])
 
   useEffect(() => {
-      fetch('https://api.covid19india.org/state_district_wise.json')
+      fetch('https://data.covid19india.org/state_district_wise.json')
       .then(response => response.json())
       .then(coronaData => {
               const cData = coronaData.Chhattisgarh.districtData
